@@ -31,6 +31,7 @@ initialize_system() {
     fi
 
     echo "All directories are ready!"
+    echo "Initialized on: $(date)"
 }
 
 # Call the function
