@@ -1,4 +1,6 @@
 i#!/bin/bash
+# Author: Gwiza Tysha Kansiime
+# Role: Member 1 - The Architect
 
 # Member 1: The Architect
 initialize_system() {
