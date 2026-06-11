@@ -1,6 +1,8 @@
 #!/bin/bash
+
 # Author: Gwiza Tysha Kansiime and Adriel Mrangaye
 # Role: Member 1 and 2 - The Architect and the security lead
+
 
 # Member 1: The Architect
 initialize_system() {
@@ -9,6 +11,7 @@ initialize_system() {
     echo "All directories are ready!"
     echo "Initialized on: $(date)"
 }
+
 
 
 # Member 2: The Security Lead
