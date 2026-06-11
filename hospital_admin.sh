@@ -15,6 +15,7 @@ initialize_system() {
 
     echo "All directories are ready!"
     echo "Initialized on: $(date)"
+
 }
 
 
@@ -32,6 +33,5 @@ secure_data() {
         echo "active_logs directory not found."
     fi
 }
-
 # Call the function
 initialize_system
