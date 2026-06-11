@@ -32,7 +32,9 @@ initialize_system() {
 
     echo "All directories are ready!"
     echo "Initialized on: $(date)"
-} secure_data() {
+} 
+# Member 2: The Security Lead
+secure_data() {
     echo "=== Securing active_logs Directory ==="
 
     if [ -d "active_logs" ]; then
