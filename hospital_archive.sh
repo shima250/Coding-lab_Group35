@@ -34,7 +34,7 @@ archive_logs() {
     for ARCHIVED_FILE in "$ARCHIVE_DIR"/*_${TIMESTAMP}.log; do
         FULL_NAME=$(basename "$ARCHIVED_FILE")
         ORIGINAL_NAME="${FULL_NAME%_${TIMESTAMP}.log}.log"
-        > "$ACTIVE_DIR/$ORIGINAL_NAME"
+        touch "$ACTIVE_DIR/$ORIGINAL_NAME"
         echo "[RECREATED] $ORIGINAL_NAME empty and ready"
     done
 
