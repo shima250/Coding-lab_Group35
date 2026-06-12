@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Author: Gwiza Tysha Kansiime and Adriel Mrangaye
-# Role: Member 1 and 2 - The Architect and the security lead
+# Role: Member 1 and 2 - The Architect and the Security Lead
 
 
 # Member 1: The Architect
