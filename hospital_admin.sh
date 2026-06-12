@@ -28,5 +28,7 @@ secure_data() {
         echo "active_logs directory not found."
     fi
 }
-# Call the function
+# Member 3: The Orchestrator
 initialize_system
+secure_data
+echo "System Environment Secured on $(date)"
